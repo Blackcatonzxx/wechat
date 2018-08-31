@@ -1,0 +1,71 @@
+
+image{
+  height:125px;
+  width:100%;
+}
+.top_animate{
+  height:125px;
+  width:100%;
+}
+.zx{
+  height:115px;
+  width:100%;
+  border-bottom:2vh solid #EEE9E9;
+}
+.zx_content{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  height:15vh;
+  width:90%;
+  margin:0 auto;
+}
+.zx_content view{
+  flex:1;
+  margin:5px;
+  height:70px;
+  margin-top:20px;
+  border-radius:50%;
+}
+.zx_content image{
+  height:14vh;
+  width:100%;
+}
+/* doctor start */
+.doctor_content{
+  height:30vh;
+  width:100%;
+}
+.doctor_content image{
+  height:30vh;
+  width:100%;
+}
+.doctor_bottom{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  border-bottom:2vh solid #EEE9E9;
+}
+.doctor_font{
+  display:flex;
+  flex-direction:row;
+  line-height:5vh;
+  justify-content:center;
+  flex:1;
+  height:5vh;
+  border:1px solid #ccc;
+  font-size:12px;
+  font-weight:600;
+}
+.doctor_font image{
+  height:15px;
+  width:15px;
+  line-height:5vh;
+}
+.doctor_font text{
+  color:greenyellow;
+}
+/* 客服开始 */
+.kf{height:45px; width:45px; position:fixed; top:40vh; right:0; z-index:999;}
+/* 客服结束 */
+

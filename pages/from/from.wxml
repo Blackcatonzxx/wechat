@@ -1,0 +1,75 @@
+<!-- animate start -->
+<swiper class='top_animate' autoplay="ture" interval="5000" duration="500">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+<!-- animate stop -->
+<!-- 快速预约通道开始 -->
+<view class='fg' animation="{{animationData}}"><view>快速预约通道</view></view>
+<!-- 快速预约通道借宿 -->
+<!-- from start -->
+<form bindsubmit="formSubmit" bindreset="formReset">
+<view class='user'>
+  <view class='title userpublic'>您的姓名：</view>
+  <view class='input'><input class='input_content' name='username' type='text' placeholder='仅用于预约使用'></input></view>
+</view>
+<view class='user'>
+  <view class='title userpublic'>您的电话：</view>
+  <view class='input'><input class='input_content' name='phone' type='text' placeholder='仅用于预约使用'></input></view>
+</view>
+<view class='user'>
+  <view class='title userpublic'>选择日期：</view>
+  <view class='input'>
+    <picker bindchange='bindDateChange' mode='date' value='{{date}}' name='date' start='{{date}}'>
+      <view class='picker userpublic'>
+       {{date}}
+      </view>
+    </picker>
+  </view>
+</view>
+<view class='user'>
+  <view class='title userpublic'>预约科目：</view>
+  <view class='input'>
+    <picker bindchange='bindPickerChange' name='page' value='{{index}}' range='{{array}}'>
+      <view class='picker userpublic' placeholder='仅用于预约使用'>
+        {{onloadNode[NodeIndex]}}{{array[index]}}
+      </view>
+    </picker>
+  </view>
+</view>
+<view class='user'>
+  <view class='title userpublic'>您的需求：</view>
+  <view class='input'><input class='input_content' name='need' type='text' placeholder='简单描述你的具体需求'></input></view>
+</view>
+<view class='submit'>
+<view class='submit_left'>
+  <view>
+    <button class='button button_left' bindtap='bindnavigate'>
+    <view class='button_img'><image class='submit_content' src='../../images/submit.png'></image></view>
+    <view class='button_font'>提交预约</view>
+    </button>
+  </view>
+</view>
+<view class='submit_right'>
+  <view>
+    <button bindtap='bindresetshowToast' class='button button_right' formType="reset">
+    <view class='button_img'><image class='submit_content' src='../../images/reset.png'></image></view>
+    <view class='button_font'>重新填写</view>
+    </button>
+  </view>
+</view>
+</view>
+</form>
+<!-- from stop -->
+<!-- call start  -->
+<view class='call' bindtap='bindPhonedata' animation="{{animationPhone}}" >
+  <view class='call_content'>
+    点击拨打电话预约
+  </view>
+</view>
+<!-- call stop -->
+
+<image class='kf' bindtap='bindnavigate' src='../../images/kf.png'></image>

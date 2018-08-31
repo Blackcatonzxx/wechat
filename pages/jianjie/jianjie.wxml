@@ -1,0 +1,56 @@
+<view class='top_container'>
+<view>广元协和医院</view>
+<image src='{{img1}}'></image>
+</view>
+<!-- 文章1开始 -->
+<view class='data'>
+<view class='filed1'>
+  <text space="emsp">
+  广元协和医院是一家运用现代医院管理模式，集医疗、预防保健和康复于一体的现代化综合医院，国家二级综合性医院，广元市城镇职工和城镇居民基本医疗保险定点医院，新型农村合作医疗定点医院，为广大参保及参合患者按照报销比例或补偿比例直接报销费用。
+  </text>
+</view>
+</view>
+<!-- 文章1结束 -->
+<!-- 文章2开始 -->
+<view class='content_container'>
+<view>国际先进设备,创品牌医疗</view>
+</view>
+<view class='data'>
+<view class='filed1'>
+  <text space='emsp'>
+  医院医疗设备先进，拥有韩国麦迪逊彩色超声、日本阿洛卡彩色超声、美国邦盛数字化放射摄影系统DR、经颅多普勒、迈瑞BS200全自动生化分析仪、迈瑞BC3000plus全自动血球分析仪、全自动精液分析仪、电解质分析仪、不孕不育诊疗仪、德国STORZ宫腹腔镜、BBT自凝刀、LEEP刀、HCPT肛肠综合治疗仪、DNR低温等离子治疗仪、CRS体外短波治疗仪、场效应消融治疗仪、体外冲击波碎石机、颈腰椎三维治疗仪等50余台件大中型诊疗设备。
+  </text>
+</view>
+</view>
+<!-- 文章2结束 -->
+<!-- 文章3开始 -->
+<view class='content_container'>
+<view>特色专科全面</view>
+</view>
+<view class='data'>
+ <view class='filed1'>
+ <text space='emsp'>
+  医院特色专科优势显著，诊疗科目齐全。设置：内科、外科、妇产科、计划生育专业、生殖健康与不孕症专业、泌尿外科、肛肠专科、眼耳鼻喉科、皮肤科、康复理疗科等诊疗科室；设置：医学检验、医学影像、超声心电等医技科室，满足各类患者的就诊需求。
+ </text>
+ </view>
+</view>
+<!-- 文章3结束 -->
+<!-- 文章4开始 -->
+<view class='content_container'>
+<view>优秀的服务</view>
+</view>
+<view class='data'>
+  <view class='filed1'>
+    <text space='emsp'>
+  医院秉承“科技兴院、诚信为民、惠泽于民”办院方针，致力打造--创建品牌名院、百姓放心医院；医院坚持以“诚信、优质、温馨、便捷”的服务理念，为广大患者提供舒适的医疗环境，高品质的医疗质量、高品味的护理服务，简便快捷的就医程序，让每位患者满怀希望而来，满载康复而归！
+    </text>
+  </view>
+</view>
+<!-- 文章4结束 -->
+<!-- call start -->
+<view class='call' bindtap='bindPhonedata'>
+  <view class='call_content'>
+    点击拨打电话预约
+  </view>
+</view>
+<!-- call stop -->

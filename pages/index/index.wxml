@@ -1,0 +1,193 @@
+<view class="top_title_image">
+  <image class="top_titleImage" src='{{TopTitleImage}}'></image>
+</view>
+<!-- animate start -->
+<view class='top_animation'>
+  <swiper  autoplay="ture" interval="7000" duration="500">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="200"/>
+    </swiper-item>
+  </block>
+  </swiper>
+</view>
+<!-- animate stop -->
+<!-- pages start -->
+<view class='ication'>
+<view class='classification classification_left' bindtap="bindIntroduction">
+  <view class='page_left'><image src='{{imgPage3}}' class='img'></image></view>
+  <view class='page_right'>
+    <view class='font'>医院品牌</view>
+    <view class='font_ps'>医院概况 全面了解</view>
+  </view>
+</view>
+<view class='classification' bindtap="bindFrom">
+  <view class='page_left'><image src='{{imgPage2}}' class='img'></image></view>
+  <view class='page_right'>
+    <view class='font'>预约挂号</view>
+    <view class='font_ps'>无需排队 免费挂号</view>
+  </view>
+</view>
+</view>
+<view class='ication' style='height:19vh;'>
+<view class='classification classification_left' bindtap='bindnavigate'>
+  <view class='page_left'><image src='{{imgPage1}}' class='img'></image></view>
+  <view class='page_right'>
+    <view class='font'>快速问诊</view>
+    <view class='font_ps'>足不出户 咨询专家</view>
+  </view>
+</view>
+<view class='classification' bindtap="bindMap">
+  <view class='page_left'><image src='{{imgPage4}}' class='img'></image></view>
+  <view class='page_right'>
+    <view class='font'>来院路线</view>
+    <view class='font_ps'>熟知路线 轻松就诊</view>
+  </view>
+</view>
+</view>
+<!-- pages stop -->
+
+<!-- call start -->
+<view class="call">
+  <view class="call_left">
+    <view class="call_contentleft">
+      <image src="../../images/call.png"></image>
+    </view>
+    <view class="call_contentright">
+      <view class="call_content">
+        <view class="call_font">一键拨打电话</view>
+        <view class="call_number">0839-5513669</view>
+      </view>
+    </view>
+  </view>
+  <view class="call_right" bindtap="bindPhone">
+    <view class="click_call">免费拨打</view>
+  </view>
+</view>
+<!-- call stop -->
+<view class="hr"></view>
+<!-- twelve title start -->
+<view class='twelve_title'>
+  <view class='icon'><image src='{{titleimage}}' class='icon_img'></image></view>
+  <view class='fk_font'>十二大专业诊疗中心</view>
+</view>
+<!-- twelve title stop -->
+<!-- twelve content start -->
+<view class="twelve_content">
+  <view class="row">
+    <view class="content one" bindtap='bindnavigate'>内 科</view>
+    <view class="content two" bindtap='bindnavigate'>外 科</view>
+    <view class="content three" bindtap='bindnavigate'>妇 科</view>
+    <view class="content four" bindtap='bindnavigate'>男 科</view>
+  </view>
+  <view class="row">
+    <view class="content five" bindtap='bindnavigate'>不孕不育</view>
+    <view class="content six" bindtap='bindnavigate'>乳腺科</view>
+    <view class="content seven" bindtap='bindnavigate'>无痛人流</view>
+    <view class="content eight" bindtap='bindnavigate'>胃肠科</view>
+  </view>
+  <view class="row">
+    <view class="content nine" bindtap='bindnavigate'>肛肠科</view>
+    <view class="content ten" bindtap='bindnavigate'>腋臭科</view>
+    <view class="content eleven" bindtap='bindnavigate'>肝病科</view>
+    <view class="content twelve" bindtap='bindnavigate'>疼痛科</view>
+  </view>
+</view>
+<!-- twelve content stop  -->
+<view class="hr doctor_hr"></view>
+<!-- doctor animate start -->
+<view>
+  <swiper class="doctor_swiper" autoplay="ture" interval="5000" duration="500">
+  <block wx:for="{{imgUrls2}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+  </swiper>
+</view>
+<!-- doctor animate stop -->
+
+<!-- 中心医院专家团队 -->
+<view>
+  <swiper class="doctor_swiper" autoplay="ture" interval="5000" duration="500">
+  <block wx:for="{{imgUrls3}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+  </swiper>
+</view>
+<!-- 中心医院专家团队结束 -->
+
+
+<!-- comment call start -->
+<view class='comment_button'>
+  <view class='call1' bindtap='bindPhone'>电联专家 →</view>
+  <view class='call2' bindtap='bindnavigate'>在线咨询 →</view>
+</view>
+<!-- comment call stop -->
+<!-- 尖端设备开始 -->
+<view class='fk_title'>
+  <view class='icon'><image src='{{titleimage}}' class='icon_img'></image></view>
+  <view class='fk_font'>尖端设备</view>
+</view>
+
+<view class='jdsb'>
+  <view class='jdsb_content'>
+    <view><image src='{{jdsb1}}'></image></view>
+    <view><image src='{{jdsb2}}'></image></view>
+    <view><image src='{{jdsb3}}'></image></view>
+  </view>
+  <view class='jdsb_content'>
+    <view><image src='{{jdsb4}}'></image></view>
+    <view><image src='{{jdsb5}}'></image></view>
+    <view><image src='{{jdsb6}}'></image></view>
+  </view>
+</view>
+<!-- 尖端设备结束 -->
+
+<!-- 医院荣誉开始 -->
+<view class='fk_title' style='margin-top:20px; border-bottom:0.5vh solid #ccc;'>
+  <view class='icon'><image src='{{titleimage}}' class='icon_img'></image></view>
+  <view class='fk_font'>医院荣耀</view>
+</view>
+<view class='bottom-2'>
+  <swiper  autoplay="ture" interval="5000" duration="500">
+  <block wx:for="{{imgUrls4}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="200"/>
+    </swiper-item>
+  </block>
+  </swiper>
+</view>
+<!-- 医院荣耀结束 -->
+<!-- 医院信息开始 -->
+<view class="bottom_swiper">
+  <swiper class="sacred_swiper" autoplay="ture" interval="5000" duration="500">
+  <block wx:for="{{bottom}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+  </swiper>
+</view>
+<!-- 医院信息结束 -->
+<!-- 底部注释开始 -->
+<view class='bottom_doctor'>
+  <image src='{{bottom_doctor}}'></image>
+</view>
+
+<view class='bottom_font'>
+医院地址：广元市东坝电子路(劳动大厦往南200米)
+</view>
+
+<view class='bottom_fontcall'>
+  <view>咨询电话：0839-5513669</view>
+  <view>医院专家QQ：2805636793</view>
+  <view>© 广元协和医院版权所有</view>
+  <view>Wechat 信息仅做健康参考,具体诊疗请遵循医师意见</view>
+</view>
+<!-- 底部注释结束 -->
+
+<!-- fixed 客服 -->
+<image class='kf' bindtap='bindnavigate' src='../../images/kf2.gif'></image>

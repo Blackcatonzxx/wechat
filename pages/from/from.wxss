@@ -1,0 +1,36 @@
+/* Public style start */
+image{height:100%; width:100%;}
+/* Public style stop */
+/* 快速通道预约开始 */
+.fg{height:7vh; background:#ccc;}
+.fg view{width:95%; margin:0 auto; line-height:7vh; font-size:13px; color:#556B2F;}
+/* 快速通道预约结束 */
+/* animate style start */
+.top_animate{height:125px; width:100%}
+/* animate style stop */
+/* from style start */
+.user{margin:0 auto; display:flex; flex-direction:row; justify-content:flex-start; width:95%; height:7vh; border-bottom:1px solid #ccc;}
+.title{flex:2; font-weight:500;}
+.input{flex:4;}
+.userpublic{line-height:7vh;}
+.input_content{height:100%;}
+/* from style stop */
+/* submit style start */
+.submit_content{width:20px; height:20px;}
+.submit{margin:0 auto; margin-top:3vh; display:flex; flex-direction:row; width:95%;}
+.button_left{background:#CDCD00; color:white;}
+.button_right{background:green; color:white;}
+.button{display:flex; flex-direction:row; height:8vh;}
+.button_img{flex:1; text-align:right;}
+.button_font{flex:2; text-align:left; line-height:8vh;}
+.submit_left{flex:1; margin:5px; position:relative;}
+.submit_right{flex:1; margin:5px;}
+/* submit style stop */
+/* call style start */
+.call{margin:0 auto; margin-top:3vh; width:50%; height:7vh; text-align:center; border:2px solid #BCD2EE; border-radius:15px; color:#BCD2EE;}
+.call_content{line-height:7vh;}
+/* call style stop */
+/* 客服开始 */
+
+.kf{height:45px; width:45px; position:fixed; top:40vh; right:0; z-index:999;}
+/* 客服结束 */

@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/navigateTo/navigateTo",
+    "pages/jianjie/jianjie",
+    "pages/from/from",
+    "pages/Doctor/Doctor",
+    "pages/map/map"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#D03136",
+    "navigationBarTextStyle": "#ffffff",
+    "navigationBarTitleText": "广元协和医院",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#D03136",
+    "selectedColor": "#D03136",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/tabbar_oneccc.png",
+        "selectedIconPath": "images/tabbar_one.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/from/from",
+        "iconPath": "images/tabbar_twoccc.png",
+        "selectedIconPath": "images/tabbar_two.png",
+        "text": "预约"
+      },
+      {
+        "pagePath": "pages/Doctor/Doctor",
+        "iconPath": "images/tabbar_threeccc.png",
+        "selectedIconPath": "images/tabbar_three.png",
+        "text": "专家"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "images/tabbar_fourccc.png",
+        "selectedIconPath": "images/tabbar_four.png",
+        "text": "导航"
+      }
+    ]
+  }
+}

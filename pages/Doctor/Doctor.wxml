@@ -1,0 +1,284 @@
+<swiper class='top_animate' autoplay="ture" interval="5000" duration="500">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class='zx'>
+  <view class='zx_content'>
+    <view bindtap='bindnavigate'><image src='../../images/doctortop1.png'></image></view>
+    <view bindtap='bindnavigate'><image src='../../images/doctortop2.png'></image></view>
+    <view bindtap='bindnavigate'><image src='../../images/doctortop3.png'></image></view>
+    <view bindtap='bindnavigate'><image src='../../images/doctortop4.png'></image></view>
+  </view>
+</view>
+<!-- doctor start -->
+<view class='doctor_content' bindtap='bindfrom'>
+<block wx:for="{{doctor1}}">
+    <swiper-item class='doctor_content'>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</view>
+<view class='doctor_bottom'>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorheart.png'></image></view>
+    <view>综合评分<text>4.99</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorzx.png'></image></view>
+    <view>咨询量<text>7778</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctoryy.png'></image></view>
+    <view>预约门诊<text>623</text></view>
+  </view>
+</view>
+
+<view class='doctor_content' bindtap='bindfrom'>
+<block wx:for="{{doctor2}}">
+    <swiper-item class='doctor_content'>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</view>
+<view class='doctor_bottom'>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorheart.png'></image></view>
+    <view>综合评分<text>4.99</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorzx.png'></image></view>
+    <view>咨询量<text>7778</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctoryy.png'></image></view>
+    <view>预约门诊<text>623</text></view>
+  </view>
+</view>
+
+<view class='doctor_content' bindtap='bindfrom'>
+<block wx:for="{{doctor4}}">
+    <swiper-item class='doctor_content'>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</view>
+<view class='doctor_bottom'>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorheart.png'></image></view>
+    <view>综合评分<text>4.99</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorzx.png'></image></view>
+    <view>咨询量<text>7778</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctoryy.png'></image></view>
+    <view>预约门诊<text>623</text></view>
+  </view>
+</view>
+
+<view class='doctor_content' bindtap='bindfrom'>
+<block wx:for="{{doctor5}}">
+    <swiper-item class='doctor_content'>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</view>
+<view class='doctor_bottom'>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorheart.png'></image></view>
+    <view>综合评分<text>4.99</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorzx.png'></image></view>
+    <view>咨询量<text>7778</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctoryy.png'></image></view>
+    <view>预约门诊<text>623</text></view>
+  </view>
+</view>
+
+<view class='doctor_content' bindtap='bindfrom'>
+<block wx:for="{{doctor6}}">
+    <swiper-item class='doctor_content'>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</view>
+<view class='doctor_bottom'>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorheart.png'></image></view>
+    <view>综合评分<text>4.99</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorzx.png'></image></view>
+    <view>咨询量<text>7778</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctoryy.png'></image></view>
+    <view>预约门诊<text>623</text></view>
+  </view>
+</view>
+
+<view class='doctor_content' bindtap='bindfrom'>
+<block wx:for="{{doctor7}}">
+    <swiper-item class='doctor_content'>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</view>
+<view class='doctor_bottom'>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorheart.png'></image></view>
+    <view>综合评分<text>4.99</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorzx.png'></image></view>
+    <view>咨询量<text>7778</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctoryy.png'></image></view>
+    <view>预约门诊<text>623</text></view>
+  </view>
+</view>
+
+<view class='doctor_content' bindtap='bindfrom'>
+<block wx:for="{{doctor8}}">
+    <swiper-item class='doctor_content'>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</view>
+<view class='doctor_bottom'>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorheart.png'></image></view>
+    <view>综合评分<text>4.99</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorzx.png'></image></view>
+    <view>咨询量<text>7778</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctoryy.png'></image></view>
+    <view>预约门诊<text>623</text></view>
+  </view>
+</view>
+
+<view class='doctor_content' bindtap='bindfrom'>
+<block wx:for="{{doctor9}}">
+    <swiper-item class='doctor_content'>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</view>
+<view class='doctor_bottom'>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorheart.png'></image></view>
+    <view>综合评分<text>4.99</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorzx.png'></image></view>
+    <view>咨询量<text>7778</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctoryy.png'></image></view>
+    <view>预约门诊<text>623</text></view>
+  </view>
+</view>
+
+<view class='doctor_content' bindtap='bindfrom'>
+<block wx:for="{{doctor10}}">
+    <swiper-item class='doctor_content'>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</view>
+<view class='doctor_bottom'>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorheart.png'></image></view>
+    <view>综合评分<text>4.99</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorzx.png'></image></view>
+    <view>咨询量<text>7778</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctoryy.png'></image></view>
+    <view>预约门诊<text>623</text></view>
+  </view>
+</view>
+
+
+<view class='doctor_content' bindtap='bindfrom'>
+<block wx:for="{{doctor12}}">
+    <swiper-item class='doctor_content'>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</view>
+<view class='doctor_bottom'>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorheart.png'></image></view>
+    <view>综合评分<text>4.99</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorzx.png'></image></view>
+    <view>咨询量<text>7778</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctoryy.png'></image></view>
+    <view>预约门诊<text>623</text></view>
+  </view>
+</view>
+
+<view class='doctor_content' bindtap='bindfrom'>
+<block wx:for="{{doctor13}}">
+    <swiper-item class='doctor_content'>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</view>
+<view class='doctor_bottom'>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorheart.png'></image></view>
+    <view>综合评分<text>4.99</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorzx.png'></image></view>
+    <view>咨询量<text>7778</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctoryy.png'></image></view>
+    <view>预约门诊<text>623</text></view>
+  </view>
+</view>
+
+<view class='doctor_content' bindtap='bindfrom'>
+<block wx:for="{{doctor14}}">
+    <swiper-item class='doctor_content'>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</view>
+<view class='doctor_bottom'>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorheart.png'></image></view>
+    <view>综合评分<text>4.99</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctorzx.png'></image></view>
+    <view>咨询量<text>7778</text></view>
+  </view>
+  <view class='doctor_font'>
+    <view><image src='../../images/doctoryy.png'></image></view>
+    <view>预约门诊<text>623</text></view>
+  </view>
+</view>
+<!-- doctor stop -->
+
+
+<image class='kf' bindtap='bindnavigate' src='../../images/kf.png'></image>
